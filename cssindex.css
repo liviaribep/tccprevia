@@ -46,14 +46,7 @@
                 padding: 20px;
                 list-style: none;}
 
-            form.cadastro {
-                position: absolute;
-                top:2800px;
-                text-align: center;
-                color: white;
-                font-family:monospace;}
-            input.radio {
-                color: white;}
+            
             div.menu{
                 top: 0;
                 left: 500px;
@@ -64,9 +57,9 @@
                 text-align: center;
                 position: relative;
                 top: 10000px;
-                color: rgb(190, 35, 144);
-                border-bottom: 5px solid purple;
-                text-shadow: 1px 1px 1px rgb(223, 65, 175);}
+                color: #a9dd0c;
+                border-bottom: 5px solid a9dd0c;
+                text-shadow: 1px 1px 1px a9dd0c;}
             p.quemsomos {
                 position: absolute;
                 top: 1580px; right: 80px;
@@ -103,7 +96,7 @@
                 background-color: #a9dd0c;        
                 transition: 0.5s;}
             li.menu:hover{
-                background-color: #aeb98e;
+                background-color: #a9dd0c;
                 border-radius: 15px;
                 transition: 0.2s;
                 transition: 0.3s;
@@ -204,5 +197,5 @@
                     text-align: center;
                     border-radius: 10px;
                     color: rgb(33, 25, 51);
-                    background-color: rgb(255, 39, 183);
+                    background-color: #a9dd0c;
                     text-align: center;}
