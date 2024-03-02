@@ -1,0 +1,208 @@
+<!-- Estilização CSS-->
+            
+
+            ul{
+                margin:0;
+                padding: 0;}
+            a{
+                text-decoration: none;
+                color: white;}
+            
+
+            
+
+            .mensageminicial{
+                position: relative;
+                top: 200px;
+                color: #a9dd0c;
+            }
+            
+            a.time3{
+                text-decoration: none;
+                left: 80px;}
+            li.menu{
+                float: left;
+                padding: 20px;
+                list-style: none;}
+            li.times{
+                position: absolute;
+                top: 45px; right: 40px;
+                font-size: 75px;
+                float: right;
+                padding: 20px;
+                list-style: none;}
+            li.time{
+                position: absolute;
+                top: 15px; left: 580px;
+                font-size: 25px;
+                float: right;
+                padding: 20px;
+                list-style: none;}
+            li.time2{
+                position: absolute;
+                top: 15px;
+                font-size: 25px;
+                float: right;
+                padding: 20px;
+                list-style: none;}
+
+            form.cadastro {
+                position: absolute;
+                top:2800px;
+                text-align: center;
+                color: white;
+                font-family:monospace;}
+            input.radio {
+                color: white;}
+            div.menu{
+                top: 0;
+                left: 500px;
+                width: 800px;
+                position: absolute;}
+            P.acesse{
+                display: block;
+                text-align: center;
+                position: relative;
+                top: 10000px;
+                color: rgb(190, 35, 144);
+                border-bottom: 5px solid purple;
+                text-shadow: 1px 1px 1px rgb(223, 65, 175);}
+            p.quemsomos {
+                position: absolute;
+                top: 1580px; right: 80px;
+                font-size: 80px;
+                color: white;}
+            img.logo {
+                margin-left: 30px;
+                margin-top: 15px;
+                position: absolute;}
+            
+            .imagemquemsomos{
+                position: absolute;
+                top: 1550px; left: 10px;
+                height: 650px; width: 750px;
+                background-size: cover;
+                background-image: url(fundosite2.jpg);}
+            
+
+            .imagem {
+                position:absolute;
+                top:0px; left:0px;
+                z-index: -1;}
+            
+            p.titulo {
+                position: absolute; 
+                left: 40px; top: 2300px; 
+                color: white; font-size: 50px;}
+
+
+
+
+            td:hover{
+                
+                background-color: #a9dd0c;        
+                transition: 0.5s;}
+            li.menu:hover{
+                background-color: #aeb98e;
+                border-radius: 15px;
+                transition: 0.2s;
+                transition: 0.3s;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);}
+            .times:hover{
+                background-color: rgba(255, 255, 255, 0.253);
+                border-radius: 15px;
+                transition: 0.2s;
+                transition: 0.3s;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);}
+            a:hover{
+                color: rgb(0, 0, 0);
+                border-bottom: 2px solid rgb(0, 0, 0);
+                transition: 0.5s;
+                transition-timing-function: linear;
+                animation-direction: right;}
+
+            #times:hover{
+                color:   #abdb25;
+                background-color: rgb(33, 25, 51);
+                transition: 0.2s;
+                transition-timing-function: linear;
+                animation-direction: right;}
+            #times2:hover{
+                color:   #abdb25;
+                background-color: rgb(33, 25, 51);
+                transition: 0.2s;
+                transition-timing-function: linear;
+                animation-direction: right;}
+
+
+                #TAG1{
+                position:absolute;
+                top:0px; left:0px;
+                width:1349px; height:200px;
+                background: linear-gradient(to top,rgba(255, 255, 255, 0),#abdb25);}
+                #TAG3{
+                position:absolute;
+                top:300px; left:0px;
+                width:1349px; height:200px;
+                font-size: 50px;
+                background: linear-gradient(to top,#abdb25,rgba(255, 255, 255, 0));}
+                #TAG2{
+                position:absolute;
+                top:0px; left:0px;
+                width:1349px; height:500px;
+                background-image: url(fundosite.jpg);
+                background-size: cover;
+                background-position: center;}
+                #TAGmenufixado {
+                position: fixed;
+                top: 0;
+                z-index: 99999;}
+
+
+            
+                #TAGtimes1{
+                position:absolute;
+                top:640px; left:20px;
+                width:1300px; height:200px;
+                border-radius: 10px;
+                background-size: cover;
+                background-image: url(valorant2.jpg);
+                background-position: center;
+                transition: width 0.5s;
+                text-align: center;}
+                #TAGtimes2{
+                position:absolute;
+                top:850px; left:20px;
+                width:1300px; height:200px;
+                border-radius: 10px;
+                background-size: cover;
+                background-image: url(lol2.jpg);
+                background-position: center;
+                transition: width 0.5s;}
+                #TAGtimes3{
+                position:absolute;
+                top:1060px; left:20px;
+                width:1300px; height:200px;
+                border-radius: 10px;
+                background-size: cover;
+                background-image: url(overwatch.jpg);
+                background-position: center;
+                transition: width 0.5s;}
+                #times{
+                position: absolute;
+                top: 1280px; left: 450;
+                width: 1300px; height: 100px;
+                text-align: center;
+                border-radius: 10px;
+                color: rgb(33, 25, 51);
+                background-color: #abdb25;
+                text-align: center;}
+                #times2{
+                    position: absolute;
+                    top: 2100px; left: 900px;
+                    width: 250px; height: 100px;
+                    text-align: center;
+                    border-radius: 10px;
+                    color: rgb(33, 25, 51);
+                    background-color: rgb(255, 39, 183);
+                    text-align: center;}
