@@ -58,8 +58,8 @@
                 position: relative;
                 top: 10000px;
                 color: #a9dd0c;
-                border-bottom: 5px solid a9dd0c;
-                text-shadow: 1px 1px 1px a9dd0c;}
+                border-bottom: 5px solid #a9dd0c;
+                text-shadow: 1px 1px 1px #a9dd0c;}
             p.quemsomos {
                 position: absolute;
                 top: 1580px; right: 80px;
@@ -78,11 +78,7 @@
                 background-image: url(fundosite2.jpg);}
             
 
-            .imagem {
-                position:absolute;
-                top:0px; left:0px;
-                z-index: -1;}
-            
+         
             p.titulo {
                 position: absolute; 
                 left: 40px; top: 2300px; 
@@ -115,30 +111,20 @@
                 animation-direction: right;}
 
             #times:hover{
-                color:   #abdb25;
+                color:  #a9dd0c;
                 background-color: rgb(33, 25, 51);
                 transition: 0.2s;
                 transition-timing-function: linear;
                 animation-direction: right;}
             #times2:hover{
-                color:   #abdb25;
+                color:   #a9dd0c;
                 background-color: rgb(33, 25, 51);
                 transition: 0.2s;
                 transition-timing-function: linear;
                 animation-direction: right;}
 
 
-                #TAG1{
-                position:absolute;
-                top:0px; left:0px;
-                width:1349px; height:200px;
-                background: linear-gradient(to top,rgba(255, 255, 255, 0),#abdb25);}
-                #TAG3{
-                position:absolute;
-                top:300px; left:0px;
-                width:1349px; height:200px;
-                font-size: 50px;
-                background: linear-gradient(to top,#abdb25,rgba(255, 255, 255, 0));}
+                
                 #TAG2{
                 position:absolute;
                 top:0px; left:0px;
