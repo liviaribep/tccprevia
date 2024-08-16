@@ -1,0 +1,9 @@
+body{
+    font-size: 20px;
+    background-color: rgb(33, 25, 51); 
+    font-family:monospace; 
+    color: #a9dd0c;}
+
+#timesvalorant{
+    top: 50px;
+    position: absolute;}
