@@ -1,4 +1,6 @@
 <!-- Estilização CSS-->
+
+        
             
 
             ul{
@@ -8,7 +10,9 @@
                 text-decoration: none;
                 color: white;}
             
-
+            nav{
+                position: fixed;
+            }
             
 
             .mensageminicial{
@@ -60,6 +64,13 @@
                 color: #a9dd0c;
                 border-bottom: 5px solid #a9dd0c;
                 text-shadow: 1px 1px 1px #a9dd0c;}
+
+            #quemsomos2{
+                position: absolute;
+                top: 1580px; right: 80px;
+                font-size: 80px;
+                color: white;} 
+
             p.quemsomos {
                 position: absolute;
                 top: 1580px; right: 80px;
@@ -86,7 +97,11 @@
 
 
 
-
+            #nossostimes{
+                position: absolute; 
+                left: 40px; top: 2300px; 
+                color: white; font-size: 50px;}
+        
             td:hover{
                 
                 background-color: #a9dd0c;        
