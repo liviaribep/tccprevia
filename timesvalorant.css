@@ -3,7 +3,33 @@ body{
     background-color: rgb(33, 25, 51); 
     font-family:monospace; 
     color: #a9dd0c;}
+    ul{
+        margin:0;
+        padding: 0;}
+    nav{
+        position: fixed;
+    }
+div.menu{
+    top: 0;
+    left: 500px;
+    width: 800px;
+    position: absolute;}
+li.menu{
+    float: left;
+    padding: 20px;
+    list-style: none;}
+    li.menu:hover{
+        background-color: #a9dd0c;
+        border-radius: 15px;
+        transition: 0.2s;
+        transition: 0.3s;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);}
 
 #timesvalorant{
     top: 50px;
     position: absolute;}
+
+.jogadoresVALORANT{
+    top: 300px;
+    position: absolute;
+}    
