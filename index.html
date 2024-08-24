@@ -5,36 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    </style>
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    
 
 
 </head>
 
+<body style="font-size: 30px;background-color: rgb(33, 25, 51); font-family: New Amsterdam, sans-serif; color: #a9dd0c;">
 
 
-
-
-
-
-
-
-<body style="font-size: 20px;background-color: rgb(33, 25, 51); font-family:monospace; color: #a9dd0c;">
-    
 <nav> 
-    <H1 id="mensageminicial">PROJETO</H1>
 
     <div class="menu">
     <ul style="list-style-type: none; width: 100%;">
-        <li class="menu"><a href="index.html"> INÍCIO </li></a>
-        <li class="menu"><a href="#nossostimes"> TIMES </li></a>
-        <li class="menu"><a href=""> AGENDA </li></a>
-        <li class="menu"><a href="#quemsomos2"> SOBRE </li></a>
-        <li class="menu"><a href=""> NOTÍCIAS </li></a>
-        <li class="menu"><a href=""> DESTAQUES </li></a>
-        <li class="menu"><a href=""> CADASTRO </li></a></div>
+        <li id="mensageminicial" style="font-size: 70px; color: #a9dd0c;">INTEGR4GIRLS</li>
+        <li class="menu" style="position: absolute; left: 585px; top: 2px;"><a href="#nossostimes"> TIMES </li></a>
+        <li class="menu" style="position: absolute; left: 680px; top: 2px;"><a href=""> AGENDA </li></a>
+        <li class="menu" style="position: absolute; left: 800px; top: 2px;"><a href="#quemsomos2"> SOBRE </li></a>
+        <li class="menu" style="position: absolute; left: 915px; top: 2px;"><a href=""> NOTÍCIAS </li></a>
+        <li class="menu" style="position: absolute; left: 1050px; top: 2px;"><a href=""> DESTAQUES </li></a>
+        <li class="menu" style="position: absolute; left: 1200px; top: 2px;"><a href=""> CADASTRO </li></a></div>
 </nav>    
+
+<div class="carousel">
+    <div class="carousel-images"> 
+        <a href="https://br.ign.com/esports/124403/news/pain-gaming-e-tricampea-da-ignis-cup-apos-derrotar-rise-gaming-por-3-a-1#:~:text=Fundada%20em%202022%2C%20a%20Ignis,parceria%20com%20a%20Gamers%20Club." target="_blank" style="text-align: center; color: #a9dd0c; font-family: New Amsterdam, sans-serif;"> <img src="timePain.jpg" alt="Imagem 1">ULTIMAS NOTICIAS</a> 
+        <img src="https://via.placeholder.com/600x400?text=Imagem+2" alt="Imagem 2">
+        <img src="https://via.placeholder.com/600x400?text=Imagem+3" alt="Imagem 3">
+    </div>
+    <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
+    <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
+</div>
+
+<script>
+    let currentIndex = 0;
+
+    function showSlide(index) {
+        const slides = document.querySelectorAll('.carousel-images img');
+        const totalSlides = slides.length;
+
+        if (index >= totalSlides) {
+            currentIndex = 0;
+        } else if (index < 0) {
+            currentIndex = totalSlides - 1;
+        } else {
+            currentIndex = index;
+        }
+
+        const offset = -currentIndex * 100;
+        document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
+    }
+
+    function nextSlide() {
+        showSlide(currentIndex + 1);
+    }
+
+    function prevSlide() {
+        showSlide(currentIndex - 1);
+    }
+</script>
+
+
+
+
+
+
         <p id="nossostimes" style="top: 500px;"> NOSSOS TIMES </p> 
         <div id="TAGtimes1"> <ul> <li class="times"><a href="timesvalorant.html"> VALORANT </li></a> </ul></div>
         <div id="TAGtimes2"> <ul> <li class="times"><a href=""> LOL </li></a> </ul></div>

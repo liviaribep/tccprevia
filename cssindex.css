@@ -13,16 +13,63 @@
             a{
                 text-decoration: none;
                 color: white;}
+
+                .carousel {
+                    position: relative;
+                    top: 100px;
+                    width: 70%;
+                    max-width: 800px;
+                    margin: auto;
+                    overflow: hidden;
+                }
+        
+                .carousel-images {
+                    display: flex;
+                    transition: transform 0.5s ease-in-out;
+                }
+        
+                .carousel-images img {
+                    width: 800px;
+                    height: 400px;
+                    flex-shrink: 0;
+                }
+        
+                .carousel-button {
+                    position: absolute;
+                    top: 50%;
+                    width: 30px;
+                    height: 30px;
+                    background-color: rgba(0,0,0,0.5);
+                    color: white;
+                    border: none;
+                    cursor: pointer;
+                    font-size: 18px;
+                    transform: translateY(-50%);
+                    z-index: 10;
+                }
+        
+                .carousel-button.prev {
+                    left: 10px;
+                }
+        
+                .carousel-button.next {
+                    right: 10px;
+                }    
+
+
+
             
             nav{
                 position: fixed;
+                z-index: 5000;
             }
             
 
-            .mensageminicial{
-                position: relative;
-                top: 200px;
-                color: #a9dd0c;
+            .mensageminicial:hover{
+
+                background-color: rgba(0, 0, 0, 0);
+
+               
             }
             
             a.time3{
@@ -56,8 +103,8 @@
 
             
             div.menu{
-                top: 0;
-                left: 500px;
+                top: 0px;
+                left: 0px;
                 width: 800px;
                 position: absolute;}
             P.acesse{
@@ -122,13 +169,7 @@
                 transition: 0.2s;
                 transition: 0.3s;
                 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);}
-            a:hover{
-                color: rgb(0, 0, 0);
-                border-bottom: 2px solid rgb(0, 0, 0);
-                transition: 0.5s;
-                transition-timing-function: linear;
-                animation-direction: right;}
-
+          
             #times:hover{
                 color:  #a9dd0c;
                 background-color: rgb(33, 25, 51);
