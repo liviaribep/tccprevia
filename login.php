@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -23,18 +22,19 @@
             <li class="menu" style="position: absolute; left: 800px; top: 2px;"><a href="#quemsomos2"> SOBRE </li></a>
             <li class="menu" style="position: absolute; left: 915px; top: 2px;"><a href=""> NOTÍCIAS </li></a>
             <li class="menu" style="position: absolute; left: 1050px; top: 2px;"><a href=""> DESTAQUES </li></a>
-            <li class="menu" style="position: absolute; left: 1200px; top: 2px;"><a href="teste2.html"> ENTRAR </li></a></div>
+            <li class="menu" style="position: absolute; left: 1200px; top: 2px;"><a href="login.php"> ENTRAR </li></a></div>
     </nav>    
 
     <div class="login-container">
         <h1>Login</h1>
-        <form action="conectacadastro.php" method="post">
-            <input type="text" placeholder="Nome" id="nome" name="nome" required>
+        <form action="autenticar.php" method="post">
             <input type="text" placeholder="Usuário" id="usuario" name="usuario" required>
             <input type="password" placeholder="Senha" id="senha" name="senha" required>
             <button type="submit">Entrar</button>
-            <a href="#">Esqueceu a senha?</a>
+            <a href="conectacadastro.php">Cadastre-se</a>
         </form>
     </div>
 </body>
 </html>
+
+
