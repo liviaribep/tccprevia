@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>  <link rel="stylesheet" type="text/css" href="cssindex.css"/>
+    <link rel="stylesheet" href="dycalendar.css">
+    <link rel="stylesheet" href="csscalendario.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -72,27 +74,22 @@
 
 
 
-        <p id="nossostimes" style="top: 500px;"> NOSSOS TIMES </p> 
-        <div id="TAGtimes1"> <ul> <li class="times"><a href="timesvalorant.html"> VALORANT </li></a> </ul></div>
-        <div id="TAGtimes2"> <ul> <li class="times"><a href=""> LOL </li></a> </ul></div>
-        <div id="TAGtimes3"> <ul> <li class="times"><a href=""> OVERWATCH </li></a> </ul></div></div>
-        <a href=""> <div id="times"> <ul><li class="time"> <b>VER TIMES</b> </li></ul> </div> </a>
-
-        <p id="quemsomos2"> QUEM SOMOS? </p>
-        <p class="quemsomos" style="font-size: 25px; top: 1750px; right: 250px;"><strong> SOMOS XXXXXXXXXXXXXXXX </strong></p>
-        <p class="quemsomos" style="font-size: 15px; top: 1800px; right: 60px; font-family: monospace;">
-                    Lorem ipsum dolor sit amet consectetur,adipisicing elit. faj<br>
-                    quis rerum qui corporis voluptate omnis, distinctio veniafaj<br><br>
-                    saepe labore repudiandae, vitae ipsum ratione cupiditate.faj<br>
-                    quia facilis.Lorem ipsum dolor sit amet consectetur,adipifaj<br>
-                    quis rerum qui corporis voluptate omnis, distinctio veniafaj<br>
-                    saepe labore repudiandae, vitae ipsum ratione cupiditate.faj<br><br>
-                    quia facilis. Lorem ipsum dolor sit amet consectetur,adipfaj<br>
-                    quis rerum qui corporis voluptate omnis, distinctio veniafaj<br><br>
-                    saepe labore repudiandae, vitae ipsum ratione cupiditate.faj<br>
-                    quia facilis.</p>
-        <img class="imagemquemsomos">
-        <a href="" > <div id="times2"> <ul><li class="time2"> <b>SAIBA MAIS</b> </li></ul> </div> </a>
-
-        
-    
+        <p id="nossostimes" style="top: 500px;"> AGENDA </p> 
+    <section>
+        <div class="box">
+            <div class="container">
+                <div id="dycalendar"></div>
+            </div>
+        </div>
+    </section>
+    <script src="dycalendar.js"></script>
+    <script>
+        dycalendar.draw({
+            target: '#dycalendar',
+            type: 'month',
+            highlighttargetdate: true,
+            prevnextbutton: 'show'
+        })
+    </script>
+</body>
+</html>

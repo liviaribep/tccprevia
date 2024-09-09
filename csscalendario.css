@@ -1,0 +1,105 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box{
+    position: relative;
+}
+
+.container{
+    position: relative;
+    min-width: 400px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+#dycalendar{
+    width: 100%;
+    padding: 30px 30px 0;
+}
+
+#dycalendar table{
+    width: 100%;
+    border-spacing: 15px;
+    margin-top: 40px;
+}
+
+#dycalendar table tr:nth-child(1) td{
+    background: #2196f3;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 400;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #edf1f4;
+}
+
+#dycalendar table tr:nth-child(1) td:nth-child(1){
+    background: #f44336;
+}
+
+#dycalendar table td{
+    color: #777;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#dycalendar table td:hover{
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#dycalendar table td:first-child{
+    color: #f44336;
+}
+
+.dycalendar-month-container .dycalendar-target-date{
+    background: #18bb2e;
+    color: #fff !important;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1) !important;
+    border: 2px solid #edf1f4;
+}
+
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.prev-btn{
+    width: 45px;
+    height: 45px;
+    font-size: 2em;
+    left: 15px;
+  
+    background: white;
+    
+}
+
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.next-btn{
+    width: 45px;
+    height: 45px;
+    font-size: 2em;
+    right: 15px;
+ 
+    background: white;
+  
+}
+
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.prev-btn:active,
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.next-btn:active{
+
+}
+
+.dycalendar-span-month-year{
+    color: #2196f3;
+    font-size: 40px;
+    font-weight: 400;
+}
