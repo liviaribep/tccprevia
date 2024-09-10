@@ -31,7 +31,7 @@
             <input type="text" placeholder="Nome" id="nome" name="nome" required>
             <input type="text" placeholder="Usuário" id="usuario" name="usuario" required>
             <input type="password" placeholder="Senha" id="senha" name="senha" required>
-            <button type="submit">Enviar</button>
+            <button type="submit">Cadastrar</button>
         </form>
         <p>Já tem uma conta? <a href="login.php">Faça login</a></p>
     </div>

@@ -37,7 +37,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Login falhou
         echo 'Usuário ou senha incorretos.';
     }
-} else {
-    echo 'Método de requisição não suportado.';
-}
+} 
 ?>

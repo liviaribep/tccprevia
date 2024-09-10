@@ -31,15 +31,15 @@ if (!isset($_SESSION['usuario'])) {
         <li class="menu" style="position: absolute; left: 680px; top: 2px;"><a href=""> AGENDA </li></a>
         <li class="menu" style="position: absolute; left: 800px; top: 2px;"><a href="#quemsomos2"> SOBRE </li></a>
         <li class="menu" style="position: absolute; left: 915px; top: 2px;"><a href=""> NOTÍCIAS </li></a>
-        <li class="menu" style="position: absolute; left: 1050px; top: 2px;"><a href=""> DESTAQUES </li></a>
+        <li class="menu" style="position: absolute; left: 1050px; top: 2px;"><a href="destaques.php"> DESTAQUES </li></a>
         <li style="font-size: 20px; position: absolute; left: 1300px; top: 9px;">Bem-vinde, <?php echo htmlspecialchars($_SESSION['usuario']); ?>!</li>
         <li class="menu" style="position: absolute; left: 1200px; top: 2px;"><a href="logout.php">Sair</a></li>
 </nav>    
 <div class="carousel">
     <div class="carousel-images"> 
         <a href="https://br.ign.com/esports/124403/news/pain-gaming-e-tricampea-da-ignis-cup-apos-derrotar-rise-gaming-por-3-a-1#:~:text=Fundada%20em%202022%2C%20a%20Ignis,parceria%20com%20a%20Gamers%20Club." target="_blank" style="text-align: center; color: #a9dd0c; font-family: New Amsterdam, sans-serif;"> <img src="timePain.jpg" alt="Imagem 1">ULTIMAS NOTICIAS</a> 
-        <img src="https://via.placeholder.com/600x400?text=Imagem+2" alt="Imagem 2">
-        <img src="https://via.placeholder.com/600x400?text=Imagem+3" alt="Imagem 3">
+        <a href="destaques.php" style="text-align: center; color: #a9dd0c; font-family: New Amsterdam, sans-serif;"> <img src="paula_nobre.jpg" alt="Imagem 2"> MULHERES EM DESTAQUE </a>
+        <a href="calendario.html" style="text-align: center; color: #a9dd0c; font-family: New Amsterdam, sans-serif;"> <img src="eventos.jpg" alt="Imagem 3"> EVENTOS DA SEMANA </a>
     </div>
     <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
     <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
@@ -79,10 +79,10 @@ if (!isset($_SESSION['usuario'])) {
 
 
 <p id="nossostimes" style="top: 500px;"> NOSSOS TIMES </p> 
-        <div id="TAGtimes1"> <ul> <li class="times"><a href="timesvalorant.html"> VALORANT </li></a> </ul></div>
-        <div id="TAGtimes2"> <ul> <li class="times"><a href=""> LOL </li></a> </ul></div>
-        <div id="TAGtimes3"> <ul> <li class="times"><a href=""> OVERWATCH </li></a> </ul></div></div>
-        <a href=""> <div id="times"> <ul><li class="time"> <b>VER TIMES</b> </li></ul> </div> </a>
+        <div id="TAGtimes1"> <ul> <li class="times"><a href="inscreverval.php"> VALORANT </li></a> </ul></div>
+        <div id="TAGtimes2"> <ul> <li class="times"><a href="inscreverlol.php"> LOL </li></a> </ul></div>
+        <div id="TAGtimes3"> <ul> <li class="times"><a href="inscreverover.php"> OVERWATCH </li></a> </ul></div></div>
+        <a href="times.php"> <div id="times"> <ul><li class="time"> <b>VER TIMES</b> </li></ul> </div> </a>
 
         <p id="quemsomos2"> QUEM SOMOS? </p>
         <p class="quemsomos" style="font-size: 25px; top: 1750px; right: 250px;"><strong> SOMOS XXXXXXXXXXXXXXXX </strong></p>
