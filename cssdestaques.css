@@ -1,0 +1,41 @@
+/* Estilos básicos para a página */
+
+
+.bloco {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    top: 200px;
+}
+
+.highlight {
+    display: flex;
+    align-items: center;
+    background-color: #a9dd0cb5;
+    border: 4px solid #000000;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.highlight img {
+    max-width: 300px;
+    height: auto;
+    border: 3px solid #000000;
+    position: relative;
+    left: 8px;
+}
+
+.info {
+    padding: 20px;
+    color: rgb(31, 30, 30);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    margin: 0;
+}

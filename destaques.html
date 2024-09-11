@@ -1,15 +1,7 @@
-<?php
-session_start();
-if (!isset($_SESSION['usuario'])) {
-    header('Location: login.php');
-    exit;
-}
-?>
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>  <link rel="stylesheet" type="text/css" href="cssindex.css"/>
-        <link rel="stylesheet" type="text/css" href="cssdestaques.css"/>
+    <link rel="stylesheet" type="text/css" href="cssdestaques.css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -27,14 +19,13 @@ if (!isset($_SESSION['usuario'])) {
 <nav> 
     <div class="menu">
     <ul style="list-style-type: none; width: 100%;">
-        <li id="mensageminicial" style="font-size: 70px;"><a href="bem vindo.php" style="color: #a9dd0c;;"> INTEGR4GIRLS</li></a>
+        <li id="mensageminicial" style="font-size: 70px;"><a href="index.html" style="color: #a9dd0c;;"> INTEGR4GIRLS</li></a>
         <li class="menu" style="position: absolute; left: 585px; top: 2px;"><a href="#nossostimes"> TIMES </li></a>
         <li class="menu" style="position: absolute; left: 680px; top: 2px;"><a href=""> AGENDA </li></a>
         <li class="menu" style="position: absolute; left: 800px; top: 2px;"><a href="#quemsomos2"> SOBRE </li></a>
         <li class="menu" style="position: absolute; left: 915px; top: 2px;"><a href=""> NOTÍCIAS </li></a>
         <li class="menu" style="position: absolute; left: 1050px; top: 2px;"><a href="destaques.php"> DESTAQUES </li></a>
-        <li style="font-size: 20px; position: absolute; left: 1300px; top: 9px;">Bem-vinde, <?php echo htmlspecialchars($_SESSION['usuario']); ?>!</li>
-        <li class="menu" style="position: absolute; left: 1200px; top: 2px;"><a href="logout.php">Sair</a></li>
+        <li class="menu" style="position: absolute; left: 1200px; top: 2px;"><a href="login.php"> ENTRAR </li></a></div>
 </nav>
 
 <p id="nossostimes" style="top: 150px;"> MULHERES EM DESTAQUES </p> 
@@ -43,7 +34,7 @@ if (!isset($_SESSION['usuario'])) {
     <section class="highlight">
         <img src="loud-liz.jpg" alt="Liz">
         <div class="info">
-            <h2 >Liz  <a href="https://www.instagram.com/loud_liz1/" target="_blank" style="font-size: 30px; position: relative; left: 10px; bottom: 5px; "> @loud_liz1 </a> </h2> 
+            <h2>Liz <a href="https://www.instagram.com/loud_liz1/" target="_blank" style="font-size: 30px; position: relative; left: 10px; bottom: 5px; "> @loud_liz1 </a> </h2>
             <p>Caçadora do time Academy da LOUD, Elizabeth "Liz" assumiu a titularidade da posição depois que Mateus "Mewkyo" foi oficializado no time principal. A carioca já teve passagem pela equipe feminina da Falkol e foi companheira de time da Ariel "Ari" - atualmente jogadora da E-Flix (antigo Cruzeiro). Liz fez a sua estreia no CBLoL Academy contra a Rensga Esports. Com o campeão Udyr, a jogadora conseguiu dominar os objetivos do mapa e transferir a vantagem para o resto da equipe. A caçadora é um dos destaques no cenário do Academy do LoL. Liz se tornou a primeira jogadora mulher a participar dos playoffs do Academy.</p>
         </div>
     </section>
@@ -69,5 +60,6 @@ if (!isset($_SESSION['usuario'])) {
     </section>
    
 </div>
+
 </body>
 </html>

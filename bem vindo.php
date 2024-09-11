@@ -26,7 +26,7 @@ if (!isset($_SESSION['usuario'])) {
 <nav> 
     <div class="menu">
     <ul style="list-style-type: none; width: 100%;">
-        <li id="mensageminicial" style="font-size: 70px;"><a href="index.html" style="color: #a9dd0c;;"> INTEGR4GIRLS</li></a>
+        <li id="mensageminicial" style="font-size: 70px;"><a href="bem vindo.php" style="color: #a9dd0c;;"> INTEGR4GIRLS</li></a>
         <li class="menu" style="position: absolute; left: 585px; top: 2px;"><a href="#nossostimes"> TIMES </li></a>
         <li class="menu" style="position: absolute; left: 680px; top: 2px;"><a href=""> AGENDA </li></a>
         <li class="menu" style="position: absolute; left: 800px; top: 2px;"><a href="#quemsomos2"> SOBRE </li></a>
@@ -37,8 +37,12 @@ if (!isset($_SESSION['usuario'])) {
 </nav>    
 <div class="carousel">
     <div class="carousel-images"> 
-        <a href="https://br.ign.com/esports/124403/news/pain-gaming-e-tricampea-da-ignis-cup-apos-derrotar-rise-gaming-por-3-a-1#:~:text=Fundada%20em%202022%2C%20a%20Ignis,parceria%20com%20a%20Gamers%20Club." target="_blank" style="text-align: center; color: #a9dd0c; font-family: New Amsterdam, sans-serif;"> <img src="timePain.jpg" alt="Imagem 1">ULTIMAS NOTICIAS</a> 
-        <a href="destaques.php" style="text-align: center; color: #a9dd0c; font-family: New Amsterdam, sans-serif;"> <img src="paula_nobre.jpg" alt="Imagem 2"> MULHERES EM DESTAQUE </a>
+        <a href="https://br.ign.com/esports/124403/news/pain-gaming-e-tricampea-da-ignis-cup-apos-derrotar-rise-gaming-por-3-a-1#:~:text=Fundada%20em%202022%2C%20a%20Ignis,parceria%20com%20a%20Gamers%20Club." target="_blank" style="text-align: center; color: #a9dd0c; font-family: New Amsterdam, sans-serif;"> <img src="timePain.jpg" alt="Imagem 1">
+        <div class="carousel-text">
+                <h2>Texto sobre Imagem 2</h2>
+                <p>Descrição ou detalhes adicionais sobre a imagem 2.</p>
+            </div></a> 
+        <a href="destaques.php" style="text-align: center; color: #a9dd0c; font-family: New Amsterdam, sans-serif;"> <img src="olga.jpg" alt="Imagem 2"> MULHERES EM DESTAQUE </a>
         <a href="calendario.html" style="text-align: center; color: #a9dd0c; font-family: New Amsterdam, sans-serif;"> <img src="eventos.jpg" alt="Imagem 3"> EVENTOS DA SEMANA </a>
     </div>
     <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
