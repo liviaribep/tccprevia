@@ -2,7 +2,7 @@
 session_start();
 
 // Configuração do banco de dados
-$host = 'localhost:3306';
+$host = 'localhost:3307';
 $dbname = 'cadastro'; // Nome do banco de dados
 $user = 'root'; // Usuário do banco de dados
 $pass = ''; // Senha do banco de dados

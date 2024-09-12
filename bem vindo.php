@@ -31,7 +31,7 @@ if (!isset($_SESSION['usuario'])) {
         <li class="menu" style="position: absolute; left: 585px; top: 2px;"><a href="#nossostimes"> TIMES </li></a>
         <li class="menu" style="position: absolute; left: 680px; top: 2px;"><a href=""> AGENDA </li></a>
         <li class="menu" style="position: absolute; left: 800px; top: 2px;"><a href="#quemsomos2"> SOBRE </li></a>
-        <li class="menu" style="position: absolute; left: 915px; top: 2px;"><a href=""> NOTÍCIAS </li></a>
+        <li class="menu" style="position: absolute; left: 915px; top: 2px;"><a href="https://discord.gg/EyzRebJjkA" target="_blank"> DISCORD </li></a>
         <li class="menu" style="position: absolute; left: 1050px; top: 2px;"><a href="destaques.php"> DESTAQUES </li></a>
         <li style="font-size: 20px; position: absolute; left: 1300px; top: 9px;">Bem-vinde, <?php echo htmlspecialchars($_SESSION['usuario']); ?>!</li>
         <li class="menu" style="position: absolute; left: 1200px; top: 2px;"><a href="logout.php">Sair</a></li>
@@ -40,24 +40,24 @@ if (!isset($_SESSION['usuario'])) {
         <div class="carousel-slide">
             <img src="timePain.jpg" alt="Imagem 1">
             <div class="carousel-text">
-                <h2>Título da Imagem 1</h2>
-                <p>Descrição detalhada da imagem 1.</p>
-                <a href="https://br.ign.com/esports/124403/news/pain-gaming-e-tricampea-da-ignis-cup-apos-derrotar-rise-gaming-por-3-a-1#:~:text=Fundada%20em%202022%2C%20a%20Ignis,parceria%20com%20a%20Gamers%20Club." target="_blank">Saiba mais</a>
+                <h2>ULTMAS NOTÍCIAS</h2>
+                <p>Pain Gaming é tricampeã da Ignis cup.</p>
+                <a href="https://br.ign.com/esports/124403/news/pain-gaming-e-tricampea-da-ignis-cup-apos-derrotar-rise-gaming-por-3-a-1." target="_blank">Saiba mais</a>
             </div>
         </div>
         <div class="carousel-slide">
             <img src="olga.jpg" alt="Imagem 2">
             <div class="carousel-text">
-                <h2>Título da Imagem 2</h2>
-                <p>Descrição detalhada da imagem 2.</p>
+            <h2>MULHERES em destaques</h2>
+            <p>conheça mais jogadoras profissionais.</p>
                 <a href="destaques.php" target="_blank">Saiba mais</a>
             </div>
         </div>
         <div class="carousel-slide">
-            <img src="agenda.jpg" alt="Imagem 3">
+            <img src="torneios.jpg" alt="Imagem 3">
             <div class="carousel-text">
-                <h2>Título da Imagem 3</h2>
-                <p>Descrição detalhada da imagem 3.</p>
+            <h2>eventos</h2>
+            <p>fique por dentro das competições online.</p>
                 <a href="eventos.php" target="_blank">Saiba mais</a>
             </div>
         </div>

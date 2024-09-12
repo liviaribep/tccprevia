@@ -38,7 +38,7 @@
 
 <?php
 // Configurações do banco de dados
-$host = 'localhost:3306'; // ou o endereço do seu servidor MySQL
+$host = 'localhost:3307'; // ou o endereço do seu servidor MySQL
 $dbname = 'cadastro';
 $user = 'root'; // ou seu usuário do MySQL
 $pass = ''; // ou sua senha do MySQL
