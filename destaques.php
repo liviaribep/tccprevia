@@ -43,28 +43,28 @@ if (!isset($_SESSION['usuario'])) {
     <section class="highlight">
         <img src="loud-liz.jpg" alt="Liz">
         <div class="info">
-            <h2 >Liz  <a href="https://www.instagram.com/loud_liz1/" target="_blank" style="font-size: 30px; position: relative; left: 10px; bottom: 5px; "> @loud_liz1 </a> </h2> 
+            <h2 >Liz  <a href="https://www.instagram.com/loud_liz1/" target="_blank" style="font-size: 30px; position: relative; left: 10px; bottom: 5px; text-decoration: underline; font-family:times new roman"> @loud_liz1 </a> </h2> 
             <p>Caçadora do time Academy da LOUD, Elizabeth "Liz" assumiu a titularidade da posição depois que Mateus "Mewkyo" foi oficializado no time principal. A carioca já teve passagem pela equipe feminina da Falkol e foi companheira de time da Ariel "Ari" - atualmente jogadora da E-Flix (antigo Cruzeiro). Liz fez a sua estreia no CBLoL Academy contra a Rensga Esports. Com o campeão Udyr, a jogadora conseguiu dominar os objetivos do mapa e transferir a vantagem para o resto da equipe. A caçadora é um dos destaques no cenário do Academy do LoL. Liz se tornou a primeira jogadora mulher a participar dos playoffs do Academy.</p>
         </div>
     </section>
     <section class="highlight">
         <img src="tay.jpg" alt="Tayhuhu">
         <div class="info">
-            <h2>Tayhuhu <a href="https://www.instagram.com/tayhuhu/" target="_blank" style="font-size: 30px; position: relative; left: 10px; bottom: 5px; "> @tayhuhu </a></h2>
+            <h2>Tayhuhu <a href="https://www.instagram.com/tayhuhu/" target="_blank" style="font-size: 30px; position: relative; left: 10px; bottom: 5px; text-decoration: underline; font-family:times new roman"> @tayhuhu </a></h2>
             <p> Jogadora de Valorant pela INTZ Angels, Taynah "Tayhuhu" é bicampeã da Women’s Community Festival 2021. A equipe que tinha o nome de Fire Angels antes de fechar com a organização, conquistou o Girl Power Invitational. A jogadora também participou da 3ª edição da Copa Rakin como uma das treinadores das oito equipes. Pela seletiva da da WCF 2021, Tayhuhu foi um dos destaques do time, com uma média de 20 abates por partida, também foi dona do maior KDA que foi de 4,07. Ela se destacou também fora dos servidores: Tayhuhu foi quem liderou o movimento para que o streamer Emanuel "Nuel" tivesse o seu canal na Twitch de volta após banimento por conta da aparição do filho pequeno na live durante sua ausência; a própria jogadora já havia passado por situação semelhante na plataforma de streaming, por isso se engajou no acontecido com Nuel. </p>
     </section>
 
     <section class="highlight">
         <img src="olga.jpg" alt="Olga">
         <div class="info">
-            <h2>OL6A <a href="https://www.instagram.com/olgatransborda/" target="_blank" style="font-size: 30px; position: relative; left: 10px; bottom: 5px; "> @olgatransborda</a></h2>
+            <h2>OL6A <a href="https://www.instagram.com/olgatransborda/" target="_blank" style="font-size: 30px; position: relative; left: 10px; bottom: 5px; text-decoration: underline; font-family:times new roman"> @olgatransborda</a></h2>
             <p> Olga "OL6A" se tornou a primeira mulher trans no cenário competitivo de CS:GO. Jogadora da Black Dragons, OL6A teve passagens pelos times Dai Dai, SLK Gaming, SiteCs, Remo Brave e Bootkamp Gaming. A jogadora já venceu a Liga Pro da GC e Brasil Game Cup 2016. Com a equipe dos dragões, OL6A participou da WESG LATAM, Gamers Club Masters Feminina, BGS Esports e foi a única equipe composta por mulheres a participarem do Campeonato Brasileiro de Counter-Strike (CBCS). Atualmente, OL6A está disputando a AORUS League 2021 Feminina pela Black Dragons. Pela AORUS League 2021 Feminina OL6A terminou com +13 de KD/Diff e 1.12 de KDR.</p>
     </section>
 
     <section class="highlight">
         <img src="juliana.jpg" alt="Juliana">
         <div class="info">
-            <h2>Showliana <a href="https://www.instagram.com/showliana/" target="_blank" style="font-size: 30px; position: relative; left: 10px; bottom: 5px; "> @showliana</a></h2>
+            <h2>Showliana <a href="https://www.instagram.com/showliana/" target="_blank" style="font-size: 30px; position: relative; left: 10px; bottom: 5px; text-decoration: underline; font-family:times new roman"> @showliana</a></h2>
             <p> Uma das maiores figuras do cenário feminino nos eSports em geral, Juliana "showliana" é jogadora de CS:GO e Valorant pela Dignitas FEM. Inclusive, ela se tornou a 1ª brasileira a ser contratada por um time estrangeiro. Competidora desde 2008, showliana conquistou três títulos na sua passagem pela Keyd Stars, sendo eles: Brasil Game Cup SP Female 2017, WESG 2017 South American Finals: Female e XLG Summer Female; além disso, também ficou em quarto lugar na Intel Challenge Katowice 2018. A atleta ainda defendeu a organização da paiN Gaming. Recentemente, a Dignitas de CS:GO ficou em segundo lugar na DreamHack Showdown Winter 2020: NA, sendo que showliana teve um rating de 1.08 e 0.68 de mortes por rodada. Já pelo Valorant, showliana ficou em quarto lugar na VCT 2021 Game Changers NA Series 1.</p>
     </section>
    

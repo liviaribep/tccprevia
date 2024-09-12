@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>  <link rel="stylesheet" type="text/css" href="cssindex.css"/>
+    <link rel="stylesheet" type="text/css" href="carrossel.css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -30,43 +31,37 @@
 </nav>    
 
 <div class="carousel">
-    <div class="carousel-images"> 
-        <a href="https://br.ign.com/esports/124403/news/pain-gaming-e-tricampea-da-ignis-cup-apos-derrotar-rise-gaming-por-3-a-1#:~:text=Fundada%20em%202022%2C%20a%20Ignis,parceria%20com%20a%20Gamers%20Club." target="_blank" style="text-align: center; color: #a9dd0c; font-family: New Amsterdam, sans-serif;"> <img src="timePain.jpg" alt="Imagem 1">ULTIMAS NOTICIAS</a> 
-        <a href="destaques.php" style="text-align: center; color: #a9dd0c; font-family: New Amsterdam, sans-serif;"> <img src="paula_nobre.jpg" alt="Imagem 2"> MULHERES EM DESTAQUE </a>
-        <a href="calendario.html" style="text-align: center; color: #a9dd0c; font-family: New Amsterdam, sans-serif;"> <img src="eventos.jpg" alt="Imagem 3"> EVENTOS DA SEMANA </a>
+    <div class="carousel-slide">
+        <img src="timePain.jpg" alt="Imagem 1">
+        <div class="carousel-text">
+            <h2>Título da Imagem 1</h2>
+            <p>Descrição detalhada da imagem 1.</p>
+            <a href="https://br.ign.com/esports/124403/news/pain-gaming-e-tricampea-da-ignis-cup-apos-derrotar-rise-gaming-por-3-a-1#:~:text=Fundada%20em%202022%2C%20a%20Ignis,parceria%20com%20a%20Gamers%20Club." target="_blank">Saiba mais</a>
+        </div>
     </div>
-    <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
-    <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
+    <div class="carousel-slide">
+        <img src="olga.jpg" alt="Imagem 2">
+        <div class="carousel-text">
+            <h2>Título da Imagem 2</h2>
+            <p>Descrição detalhada da imagem 2.</p>
+            <a href="destaques.html" target="_blank">Saiba mais</a>
+        </div>
+    </div>
+    <div class="carousel-slide">
+        <img src="eventos.jpg" alt="Imagem 3">
+        <div class="carousel-text">
+            <h2>Título da Imagem 3</h2>
+            <p>Descrição detalhada da imagem 3.</p>
+            <a href="calendario.html" target="_blank">Saiba mais</a>
+        </div>
+    </div>
+    <!-- Botões de navegação -->
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
 </div>
 
-<script>
-    let currentIndex = 0;
 
-    function showSlide(index) {
-        const slides = document.querySelectorAll('.carousel-images img');
-        const totalSlides = slides.length;
-
-        if (index >= totalSlides) {
-            currentIndex = 0;
-        } else if (index < 0) {
-            currentIndex = totalSlides - 1;
-        } else {
-            currentIndex = index;
-        }
-
-        const offset = -currentIndex * 100;
-        document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
-    }
-
-    function nextSlide() {
-        showSlide(currentIndex + 1);
-    }
-
-    function prevSlide() {
-        showSlide(currentIndex - 1);
-    }
-</script>
-
+<script type="text/javascript" src="script.js"></script>
 
 
 
