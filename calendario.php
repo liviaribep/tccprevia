@@ -1,3 +1,14 @@
+<?php
+session_start();
+if (!isset($_SESSION['usuario'])) {
+    header('Location: login.php');
+    exit;
+}
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>  <link rel="stylesheet" type="text/css" href="cssindex.css"/>
@@ -23,44 +34,46 @@
 
     <div class="menu">
     <ul style="list-style-type: none; width: 100%;">
-        <li id="mensageminicial" style="font-size: 70px;"><a href="index.html" style="color: #a9dd0c;;"> INTEGR4GIRLS</li></a>
-        <li class="menu" style="position: absolute; left: 585px; top: 2px;"><a href="index.html#nossostimes"> TIMES </li></a>
-        <li class="menu" style="position: absolute; left: 680px; top: 2px;"><a href="calendario.html"> AGENDA </li></a>
-        <li class="menu" style="position: absolute; left: 800px; top: 2px;"><a href="index.html#quemsomos2"> SOBRE </li></a>
-        <li class="menu" style="position: absolute; left: 915px; top: 2px;"><a href="login.php"> DISCORD</li></a>
-        <li class="menu" style="position: absolute; left: 1050px; top: 2px;"><a href="destaques.html"> DESTAQUES </li></a>
-        <li class="menu" style="position: absolute; left: 1200px; top: 2px;"><a href="login.php"> ENTRAR </li></a></div>
+        <li id="mensageminicial" style="font-size: 70px;"><a href="bem vindo.php" style="color: #a9dd0c;;"> INTEGR4GIRLS</li></a>
+        <li class="menu" style="position: absolute; left: 585px; top: 2px;"><a href="bem vindo.php#nossostimes"> TIMES </li></a>
+        <li class="menu" style="position: absolute; left: 680px; top: 2px;"><a href="calendario.php"> AGENDA </li></a>
+        <li class="menu" style="position: absolute; left: 800px; top: 2px;"><a href="bem vindo.php#quemsomos2"> SOBRE </li></a>
+        <li class="menu" style="position: absolute; left: 915px; top: 2px;"><a href="https://discord.gg/EyzRebJjkA" target="_blank"> DISCORD </li></a>
+        <li class="menu" style="position: absolute; left: 1050px; top: 2px;"><a href="destaques.php"> DESTAQUES </li></a>
+        <li style="font-size: 20px; position: absolute; left: 1300px; top: 9px;">Bem-vinde, <?php echo htmlspecialchars($_SESSION['usuario']); ?>!</li>
+        <li class="menu" style="position: absolute; left: 1200px; top: 2px;"><a href="logout.php">Sair</a></li>
 </nav>    
 
+
 <div class="carousel">
-    <div class="carousel-slide">
-        <img src="timePain.jpg" alt="Imagem 1">
-        <div class="carousel-text">
-            <h2>ÚLTIMAS NOTÍCIAS</h2>
-            <p>Pain Gaming é tricampeã da Ignis Cup.</p>
-            <a href="https://br.ign.com/esports/124403/news/pain-gaming-e-tricampea-da-ignis-cup-apos-derrotar-rise-gaming-por-3-a-1." target="_blank">Saiba mais</a>
+        <div class="carousel-slide">
+            <img src="timePain.jpg" alt="Imagem 1">
+            <div class="carousel-text">
+                <h2>ÚLTIMAS NOTÍCIAS</h2>
+                <p>Pain Gaming é tricampeã da Ignis Cup.</p>
+                <a href="https://br.ign.com/esports/124403/news/pain-gaming-e-tricampea-da-ignis-cup-apos-derrotar-rise-gaming-por-3-a-1." target="_blank">Saiba mais</a>
+            </div>
         </div>
-    </div>
-    <div class="carousel-slide">
-        <img src="olga.jpg" alt="Imagem 2">
-        <div class="carousel-text">
-        <h2>MULHERES em destaque</h2>
-        <p>conheça mais jogadoras profissionais.</p>
-            <a href="destaques.html" target="_blank">Saiba mais</a>
+        <div class="carousel-slide">
+            <img src="olga.jpg" alt="Imagem 2">
+            <div class="carousel-text">
+            <h2>MULHERES em destaque</h2>
+            <p>conheça mais jogadoras profissionais.</p>
+                <a href="destaques.php" target="_blank">Saiba mais</a>
+            </div>
         </div>
-    </div>
-    <div class="carousel-slide">
-        <img src="torneios.jpg" alt="Imagem 3">
-        <div class="carousel-text">
-        <h2>eventos</h2>
-        <p>fique por dentro das competições online.</p>
-            <a href="calendario.html" target="_blank">Saiba mais</a>
+        <div class="carousel-slide">
+            <img src="torneios.jpg" alt="Imagem 3">
+            <div class="carousel-text">
+            <h2>eventos</h2>
+            <p>fique por dentro das competições online.</p>
+                <a href="calendario.php" target="_blank">Saiba mais</a>
+            </div>
         </div>
+        <!-- Botões de navegação -->
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
     </div>
-    <!-- Botões de navegação -->
-    <button class="prev">&#10094;</button>
-    <button class="next">&#10095;</button>
-</div>
 
 
 <script type="text/javascript" src="script.js"></script>
@@ -120,6 +133,12 @@
             RAINBOW SIX SIEGE - BRAZIL LEAGUE (stage 2)</a> </td>
 
     </table>
+        <div style="position: absolute; top: 2400px; left: 0px; width: 100%; height: 20%; background-color: rgb(21, 16, 32); padding: 0px;"> 
+            <p style="position: absolute; bottom: 0px; left: 10px; font-family: Arial; font-size: 15px;">  SITE: INTEGR4GIRLS - Parte prática da disciplina de Projeto Computacional, Para obtenção de diploma em tecnico em 
+            informática!</p><a href="login.php"> Contate-nos via DISCORD</a> </div>
 
 </body>
 </html>
+
+
+

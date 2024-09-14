@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
-    <title>Tela de Login</title>
+    <title>LOGIN</title>
    
 </head>
 <body style="font-size: 30px;background-color: rgb(33, 25, 51);color: #a9dd0c;">
@@ -17,11 +17,11 @@
         <div class="menu">
         <ul style="list-style-type: none; width: 100%;">
             <li id="mensageminicial" style="font-size: 70px;"><a href="index.html" style="color: #a9dd0c;;"> INTEGR4GIRLS</li></a>
-            <li class="menu" style="position: absolute; left: 585px; top: 2px;"><a href="#nossostimes"> TIMES </li></a>
-            <li class="menu" style="position: absolute; left: 680px; top: 2px;"><a href=""> AGENDA </li></a>
-            <li class="menu" style="position: absolute; left: 800px; top: 2px;"><a href="#quemsomos2"> SOBRE </li></a>
-            <li class="menu" style="position: absolute; left: 915px; top: 2px;"><a href=""> NOTÍCIAS </li></a>
-            <li class="menu" style="position: absolute; left: 1050px; top: 2px;"><a href=""> DESTAQUES </li></a>
+            <li class="menu" style="position: absolute; left: 585px; top: 2px;"><a href="index.html#nossostimes"> TIMES </li></a>
+            <li class="menu" style="position: absolute; left: 680px; top: 2px;"><a href="calendario.html"> AGENDA </li></a>
+            <li class="menu" style="position: absolute; left: 800px; top: 2px;"><a href="index.html#quemsomos2"> SOBRE </li></a>
+            <li class="menu" style="position: absolute; left: 915px; top: 2px;"><a href="login.php"> DISCORD</li></a>
+            <li class="menu" style="position: absolute; left: 1050px; top: 2px;"><a href="destaques.html"> DESTAQUES </li></a>
             <li class="menu" style="position: absolute; left: 1200px; top: 2px;"><a href="login.php"> ENTRAR </li></a></div>
     </nav>    
 

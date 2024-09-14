@@ -1,263 +1,260 @@
-<!-- Estilização CSS-->
+body{
+    font-size: 20px;
+    background-color: rgb(33, 25, 51); 
+    font-family:monospace; 
+    color: #a9dd0c;}
+
+    ul{
+        margin:0;
+        padding: 0;
+        width: 100%;}
+    a{
+        text-decoration: none;
+        color: white;}
+
+        .carousel {
+            position: relative;
+            top: 100px;
+            width: 100%;
+            max-width: 1100px;
+            height: 430px;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .carousel-images {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel-images img {
+            width: 1100px;
+            height: auto;
+            flex-shrink: 0;
+        }
+
+        .carousel-button {
+            position: absolute;
+            top: 50%;
+            width: 30px;
+            height: 30px;
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            transform: translateY(-50%);
+            z-index: 10;
+        }
+
+        .carousel-button.prev {
+            left: 10px;
+        }
+
+        .carousel-button.next {
+            right: 10px;
+        }    
+
+        .carousel-text {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            width: calc(100% - 40px); /* Ajusta a largura do texto para não ultrapassar as bordas */
+        }
+        
+        .carousel-text h2 {
+            margin: 0;
+        }
+        
+        .carousel-text p {
+            margin: 0;
+        }
+
+
+    
+    nav{
+        position: fixed;
+        z-index: 5000;
+    }
+    
+
+    .mensageminicial:hover{
+
+        background-color: rgba(0, 0, 0, 0);
+
+       
+    }
+    
+    a.time3{
+        text-decoration: none;
+        left: 80px;}
+    li.menu{
+        float: left;
+        padding: 20px;
+        list-style: none;}
+    li.times{
+        position: absolute;
+        top: 45px; right: 40px;
+        font-size: 75px;
+        float: right;
+        padding: 20px;
+        list-style: none;}
+    li.time{
+        position: absolute;
+        top: 15px; left: 580px;
+        font-size: 25px;
+        float: right;
+        padding: 20px;
+        list-style: none;}
+    li.time2{
+        position: absolute;
+        top: 15px;
+        font-size: 25px;
+        float: right;
+        padding: 20px;
+        list-style: none;}
+
+    
+    div.menu{
+        top: 0px;
+        left: 0px;
+        width: 800px;
+        position: absolute;}
+    P.acesse{
+        display: block;
+        text-align: center;
+        position: relative;
+        top: 10000px;
+        color: #a9dd0c;
+        border-bottom: 5px solid #a9dd0c;
+        text-shadow: 1px 1px 1px #a9dd0c;}
+
+    #quemsomos2{
+        position: absolute;
+        top: 1580px; right: 80px;
+        font-size: 80px;
+        color: white;} 
+
+    p.quemsomos {
+        position: absolute;
+        top: 1580px; right: 0px;
+        font-size: 80px;
+        color: white;}
+   
+    .imagemquemsomos{
+        position: absolute;
+        top: 1550px; left: 10px;
+        height: 650px; width: 750px;
+        background-size: cover;
+        background-image: url(nois.jpg);}
+    
+
+ 
+    p.titulo {
+        position: absolute; 
+        left: 40px; top: 2300px; 
+        color: white; font-size: 50px;}
+
+
+
+    #nossostimes{
+        position: absolute; 
+        left: 40px; top: 2300px; 
+        color: white; font-size: 50px;}
+
+    td:hover{
+        
+        background-color: #a9dd0c;        
+        transition: 0.5s;}
+    li.menu:hover{
+        background-color: #a9dd0c;
+        border-radius: 15px;
+        transition: 0.2s;
+        transition: 0.3s;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);}
+    .times:hover{
+        background-color: rgba(255, 255, 255, 0.253);
+        border-radius: 15px;
+        transition: 0.2s;
+        transition: 0.3s;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);}
+  
+    #times:hover{
+        color:  #a9dd0c;
+        background-color: rgb(33, 25, 51);
+        transition: 0.2s;
+        transition-timing-function: linear;
+        animation-direction: right;}
+    #times2:hover{
+        color:   #a9dd0c;
+        background-color: rgb(33, 25, 51);
+        transition: 0.2s;
+        transition-timing-function: linear;
+        animation-direction: right;}
+
 
         
-            body{
-            font-size: 20px;
-            background-color: rgb(33, 25, 51); 
-            font-family:monospace; 
-            color: #a9dd0c;}
-
-            ul{
-                margin:0;
-                padding: 0;
-                width: 100%;}
-            a{
-                text-decoration: none;
-                color: white;}
-
-                .carousel {
-                    position: relative;
-                    top: 100px;
-                    width: 100%;
-                    max-width: 1100px;
-                    height: 430px;
-                    margin: auto;
-                    overflow: hidden;
-                }
-        
-                .carousel-images {
-                    display: flex;
-                    transition: transform 0.5s ease-in-out;
-                }
-        
-                .carousel-images img {
-                    width: 1100px;
-                    height: auto;
-                    flex-shrink: 0;
-                }
-        
-                .carousel-button {
-                    position: absolute;
-                    top: 50%;
-                    width: 30px;
-                    height: 30px;
-                    background-color: rgba(0,0,0,0.5);
-                    color: white;
-                    border: none;
-                    cursor: pointer;
-                    font-size: 18px;
-                    transform: translateY(-50%);
-                    z-index: 10;
-                }
-        
-                .carousel-button.prev {
-                    left: 10px;
-                }
-        
-                .carousel-button.next {
-                    right: 10px;
-                }    
-
-                .carousel-text {
-                    position: absolute;
-                    bottom: 20px;
-                    left: 20px;
-                    background-color: rgba(0, 0, 0, 0.5);
-                    color: white;
-                    padding: 10px;
-                    border-radius: 5px;
-                    width: calc(100% - 40px); /* Ajusta a largura do texto para não ultrapassar as bordas */
-                }
-                
-                .carousel-text h2 {
-                    margin: 0;
-                }
-                
-                .carousel-text p {
-                    margin: 0;
-                }
+        #TAG2{
+        position:absolute;
+        top:0px; left:0px;
+        width:1349px; height:500px;
+        background-image: url(fundosite.jpg);
+        background-size: cover;
+        background-position: center;}
+        #TAGmenufixado {
+        position: fixed;
+        top: 0;
+        z-index: 99999;}
 
 
-            
-            nav{
-                position: fixed;
-                z-index: 5000;
-            }
-            
-
-            .mensageminicial:hover{
-
-                background-color: rgba(0, 0, 0, 0);
-
-               
-            }
-            
-            a.time3{
-                text-decoration: none;
-                left: 80px;}
-            li.menu{
-                float: left;
-                padding: 20px;
-                list-style: none;}
-            li.times{
-                position: absolute;
-                top: 45px; right: 40px;
-                font-size: 75px;
-                float: right;
-                padding: 20px;
-                list-style: none;}
-            li.time{
-                position: absolute;
-                top: 15px; left: 580px;
-                font-size: 25px;
-                float: right;
-                padding: 20px;
-                list-style: none;}
-            li.time2{
-                position: absolute;
-                top: 15px;
-                font-size: 25px;
-                float: right;
-                padding: 20px;
-                list-style: none;}
-
-            
-            div.menu{
-                top: 0px;
-                left: 0px;
-                width: 800px;
-                position: absolute;}
-            P.acesse{
-                display: block;
-                text-align: center;
-                position: relative;
-                top: 10000px;
-                color: #a9dd0c;
-                border-bottom: 5px solid #a9dd0c;
-                text-shadow: 1px 1px 1px #a9dd0c;}
-
-            #quemsomos2{
-                position: absolute;
-                top: 1580px; right: 80px;
-                font-size: 80px;
-                color: white;} 
-
-            p.quemsomos {
-                position: absolute;
-                top: 1580px; right: 80px;
-                font-size: 80px;
-                color: white;}
-           
-            .imagemquemsomos{
-                position: absolute;
-                top: 1550px; left: 10px;
-                height: 650px; width: 750px;
-                background-size: cover;
-                background-image: url(fundosite2.jpg);}
-            
-
-         
-            p.titulo {
-                position: absolute; 
-                left: 40px; top: 2300px; 
-                color: white; font-size: 50px;}
-
-
-
-            #nossostimes{
-                position: absolute; 
-                left: 40px; top: 2300px; 
-                color: white; font-size: 50px;}
-        
-            td:hover{
-                
-                background-color: #a9dd0c;        
-                transition: 0.5s;}
-            li.menu:hover{
-                background-color: #a9dd0c;
-                border-radius: 15px;
-                transition: 0.2s;
-                transition: 0.3s;
-                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);}
-            .times:hover{
-                background-color: rgba(255, 255, 255, 0.253);
-                border-radius: 15px;
-                transition: 0.2s;
-                transition: 0.3s;
-                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);}
-          
-            #times:hover{
-                color:  #a9dd0c;
-                background-color: rgb(33, 25, 51);
-                transition: 0.2s;
-                transition-timing-function: linear;
-                animation-direction: right;}
-            #times2:hover{
-                color:   #a9dd0c;
-                background-color: rgb(33, 25, 51);
-                transition: 0.2s;
-                transition-timing-function: linear;
-                animation-direction: right;}
-
-
-                
-                #TAG2{
-                position:absolute;
-                top:0px; left:0px;
-                width:1349px; height:500px;
-                background-image: url(fundosite.jpg);
-                background-size: cover;
-                background-position: center;}
-                #TAGmenufixado {
-                position: fixed;
-                top: 0;
-                z-index: 99999;}
-
-
-            
-                #TAGtimes1{
-                position:absolute;
-                top:640px; left:20px;
-                width:1300px; height:200px;
-                border-radius: 10px;
-                background-size: cover;
-                background-image: url(valorant2.jpg);
-                background-position: center;
-                transition: width 0.5s;
-                text-align: center;}
-                #TAGtimes2{
-                position:absolute;
-                top:850px; left:20px;
-                width:1300px; height:200px;
-                border-radius: 10px;
-                background-size: cover;
-                background-image: url(lol2.jpg);
-                background-position: center;
-                transition: width 0.5s;}
-                #TAGtimes3{
-                position:absolute;
-                top:1060px; left:20px;
-                width:1300px; height:200px;
-                border-radius: 10px;
-                background-size: cover;
-                background-image: url(overwatch.jpg);
-                background-position: center;
-                transition: width 0.5s;}
-                #times{
-                position: absolute;
-                top: 1280px; left: 450;
-                width: 1300px; height: 100px;
-                text-align: center;
-                border-radius: 10px;
-                color: rgb(33, 25, 51);
-                background-color: #abdb25;
-                text-align: center;}
-                #times2{
-                    position: absolute;
-                    top: 2100px; left: 900px;
-                    width: 250px; height: 100px;
-                    text-align: center;
-                    border-radius: 10px;
-                    color: rgb(33, 25, 51);
-                    background-color: #a9dd0c;
-                    text-align: center;}
+    
+        #TAGtimes1{
+        position:absolute;
+        top:640px; left:20px;
+        width:1300px; height:200px;
+        border-radius: 10px;
+        background-size: cover;
+        background-image: url(valorant2.jpg);
+        background-position: center;
+        transition: width 0.5s;
+        text-align: center;}
+        #TAGtimes2{
+        position:absolute;
+        top:850px; left:20px;
+        width:1300px; height:200px;
+        border-radius: 10px;
+        background-size: cover;
+        background-image: url(lol2.jpg);
+        background-position: center;
+        transition: width 0.5s;}
+        #TAGtimes3{
+        position:absolute;
+        top:1060px; left:20px;
+        width:1300px; height:200px;
+        border-radius: 10px;
+        background-size: cover;
+        background-image: url(overwatch.jpg);
+        background-position: center;
+        transition: width 0.5s;}
+        #times{
+        position: absolute;
+        top: 1280px; left: 450;
+        width: 1300px; height: 100px;
+        text-align: center;
+        border-radius: 10px;
+        color: rgb(33, 25, 51);
+        background-color: #abdb25;
+        text-align: center;}
+        #times2{
+            position: absolute;
+            top: 2100px; left: 900px;
+            width: 250px; height: 100px;
+            text-align: center;
+            border-radius: 10px;
+            color: rgb(33, 25, 51);
+            background-color: #a9dd0c;
+            text-align: center;}
