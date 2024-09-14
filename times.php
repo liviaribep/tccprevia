@@ -36,20 +36,20 @@ if (!isset($_SESSION['usuario'])) {
 
     <p style="position:absolute; top: 70px; font-size: 80px;left: 30%;">TIMES DO INTEGR4GIRLS</p>
 
-    <div class="login-container" style="position: absolute; top: 300px;">
-        <label for="texto"> time: Shadow Valkyries</label>
-        <img src="timelol.png" alt="" style="width: 60%;">
-        <label for="texto"> League of Legends </label>
+    <div class="login-container" style="position: absolute; top: 300px; text-decoration: none; height: 250px;">
+        <label for="texto"> Shadow Valkyries</label>
+        <img src="timelol.jpg" alt="" style="width: 60%; position: relative; left: 20px;">
+        <label for="texto" style="color: black; font-size: 30px; position: relative;top: 40px; right: 65px;"> LOL </label>
     </div>
 
-    <div class="login-container" style="position: absolute; top: 300px; left: 40%;">
-        <label for="texto"> time: Eclipse Sisters </label> 
+    <div class="login-container" style="position: absolute; top: 300px; left: 40%; text-decoration: none;">
+        <label for="texto"> Eclipse Sisters </label> 
         <img src="timeval1.webp" alt="" style="width: 60%;">
         <label for="texto"> Valorant </label>
     </div>
 
-    <div class="login-container" style="position: absolute; top: 300px;left: 65%;">
-        <label for="texto"> time: Nova Guardians</label>
+    <div class="login-container" style="position: absolute; top: 300px;left: 65%; text-decoration: none;">
+        <label for="texto"> New Guardians</label>
         <img src="timeval2.jpg" alt="" style="width: 65%;">
         <label for="texto"> Valorant </label>
     </div>

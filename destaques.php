@@ -37,7 +37,7 @@ if (!isset($_SESSION['usuario'])) {
         <li class="menu" style="position: absolute; left: 1200px; top: 2px;"><a href="logout.php">Sair</a></li>
 </nav>
 
-<p id="nossostimes" style="top: 150px;"> MULHERES EM DESTAQUES </p> 
+<p id="nossostimes" style="top: 150px;"> MULHERES EM DESTAQUE </p> 
 
 <div class="bloco">
     <section class="highlight">
